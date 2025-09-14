@@ -39,16 +39,16 @@ const char* SERVER_URL = "http://192.168.2.10:5002/get_audio_response";
 
 // --- Static Sentence Array ---
 const char* sentences[] = {
-  "Hello, how can I help you today?",
-  "What is the weather like?",
-  "Tell me a fun fact.",
-  "What's your favorite color?",
-  "How fast is a cheetah?",
-  "Can you tell me a joke?",
-  "What is the capital of France?",
-  "Explain the solar system.",
-  "Who was Leonardo da Vinci?",
-  "Tell me about machine learning."
+  "temperature in amsterdam",
+  "how are you",
+  "your favorite color",
+  "your favorite pokemon",
+  "what is 2+2",
+  "what is the capital of France",
+  "what is your name",
+  "what is the weather like today",
+  "do you like dogs",
+  "tell me a joke"
 };
 const int NUM_SENTENCES = 10;
 int currentSentenceIndex = 0;

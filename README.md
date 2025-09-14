@@ -93,4 +93,4 @@ Follow these steps to set up and run the voice assistant.
    GEMINI\_API\_KEY="YOUR\_API\_KEY\_HERE"
 
 5. **Run the Server:** Run the server from your terminal. This will start the server on your computer's local network.  
-   python app.py  
+   python server.py  
