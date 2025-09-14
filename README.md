@@ -68,10 +68,10 @@ Follow these steps to set up and run the voice assistant.
 2. **Add the ESP32 Board:** Go to File \> Preferences and add the ESP32 board manager URL: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package\_esp32\_index.json  
 3. **Install the Board:** Go to Tools \> Board \> Boards Manager, search for "esp32", and install the esp32 package.  
 4. **Install Libraries:**  
-   * TFT\_eSPI: Go to Sketch \> Include Library \> Manage Libraries, search for "TFT\_eSPI", and install it. After installation, you must edit the User\_Setup.h file within the library folder to configure the pins for your display.  
-   * WiFiManager: Install this library from the Library Manager as well.  
-5. **Configure User\_Setup.h:** Open the TFT\_eSPI library folder (usually in your Documents/Arduino/libraries folder) and edit User\_Setup.h to match the pin definitions in the User\_Setup.h file provided in this project.  
-6. **Upload the Code:** Open the voice\_assistant\_firmware.ino file, configure your Wi-Fi credentials in the setup() function, and upload the code to your ESP32.
+   * Adafruit GFX Library: Go to Sketch \> Include Library \> Manage Libraries, search for "Adafruit GFX", and install it.  
+   * Adafruit ST7789 Library: Install this library from the Library Manager as well.  
+   * WiFiManager: Install this library from the Library Manager.  
+5. **Upload the Code:** Open the esp32-voice-assistant-firmware.ino file, configure your Wi-Fi credentials in the setup() function, and upload the code to your ESP32.
 
 #### **2\. Server Setup (Python)**
 
